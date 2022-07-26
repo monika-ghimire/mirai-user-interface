@@ -4,18 +4,38 @@
 }
 .navBar
 {
+    position: relative;
     margin-top:3%;
-    text-align: center;
-    justify-content: center;
     border-bottom:1px solid gainsboro;
+    margin-bottom:3%;
 }
 .navBar a
 {
     text-decoration: none;
     color: black;
-}    
 
-
+}  
+.mirai-icon
+{
+ /* position: absolute; */
+    margin-right:8%;
+ 
+}  
+.succeces-Stories
+{
+    position: absolute;
+    margin-left:75%;
+}
+.English
+{
+    position: absolute;
+    margin-left:95%;
+}
+.why-mirai 
+{
+    position: absolute;
+    margin-left:15%;
+}
 
 .container-holder
 {
@@ -50,6 +70,13 @@
     height:40px;
     width:40%;
     margin-bottom:10%;
+}
+.bottom-border 
+{
+    border-bottom:2px solid #00B674;
+    width: 22%;
+ margin-left: 41%;
+   font-weight: bold;
 }
 .for-marging{
     margin-top:6%;
