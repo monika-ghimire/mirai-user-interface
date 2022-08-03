@@ -1,0 +1,20 @@
+.container-fuild
+{
+  text-align: center;    
+}
+.icon-holder
+{
+    display: flex;
+}
+.navBar-holder
+{
+    padding:20px;
+    width:80%;
+    position: relative;
+   border-bottom:1px solid rgb(126, 123, 123);
+}
+.miraiIconImg
+{
+    position: absolute;
+    margin-right:100%;
+}
