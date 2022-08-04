@@ -8,13 +8,54 @@
 }
 .navBar-holder
 {
+  margin-left:10%;
     padding:20px;
     width:80%;
     position: relative;
    border-bottom:1px solid rgb(126, 123, 123);
 }
-.miraiIconImg
+.icon-group-warrper
 {
-    position: absolute;
-    margin-right:100%;
+ 
+  display: flex;
+  margin-left:70%;
+}
+.icon-group-warrper i
+{
+  margin-left:10px;
+padding:20px;  
+
+}
+.p-icon
+{
+  background-color:#126AE5;
+  height:5px;
+  width:5px;
+  border-radius:50%;
+  color:white;
+  font-weight: bold;
+  text-align: center;
+}
+.heading
+{
+  font-size:30px;
+  margin-top:3%;
+}
+
+.header-bold
+{
+  font-weight: bold;
+}
+.input-holder
+{
+  width:40%;
+  height:50px;
+  margin-top:3%;
+}
+.button
+{
+  background-color:#00B674;
+  height:50px;
+  color: white;
+  border:1px solid black;
 }
