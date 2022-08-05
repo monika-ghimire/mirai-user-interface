@@ -11,11 +11,11 @@ function myFunction() {
  let list=[1,2,3]
  let show= document.getElementById('cardHolder')
   const  myFunctioncomfirm = () => {
-    completedList.forEach((item) => {
+    // list.forEach(() => {
       let singleString =`<div class="top-details">
         <div><img src="./imges/person1.png" alt="" srcset=""></div>
         <div>olive asaaha</div>
-        <div  >
+        <div>
             <ul class="work-exp-holder" >
                 visual Desiner
                 <li>wirk 2</li>
@@ -37,7 +37,7 @@ function myFunction() {
         </div>
       }`
   
-    });
+    // });
     show.innerHTML = singleString  ;
     
   };
